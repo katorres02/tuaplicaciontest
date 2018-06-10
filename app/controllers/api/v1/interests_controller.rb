@@ -1,5 +1,5 @@
 class Api::V1::InterestsController < ApiController
-  before_action :set_user, only: :index
+  before_action :set_user, only: [:index, :create]
   before_action :set_interest, only: [:show, :update, :destroy]
 
   # GET /api/v1/users/{ID}/interests.json

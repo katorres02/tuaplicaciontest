@@ -1,1 +1,16 @@
-dashboard
+
+<ul class="accordion">
+  <h1>Usuarios / intereses</h1>
+  <% @users.each_with_index do |user, index| %>
+    <li class="accordion-item">
+      <input id="s<%=index%>" class="hide" type="checkbox" checked>
+      <label for="s<%=index%>" class="accordion-label"><%= user.email %></label>
+      <p class="accordion-child">
+        <strong>Nombre: </strong> <%= "#{user.first_name} #{user.second_name} #{user.last_name} #{user.maiden_name}"%><br>
+        <strong>Télefono: </strong>  <%= user.phone %><br>
+        <strong>Dirección: </strong> <%= user.address %><br>
+        <strong>Intereses:</strong>  <%=  user.interests.map {|x| x.name}.to_sentence %> <br>
+      </p>
+    </li>
+  <%end%>
+</ul>

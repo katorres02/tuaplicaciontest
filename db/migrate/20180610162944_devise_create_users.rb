@@ -5,7 +5,14 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.1]
     create_table :users do |t|
       ## Database authenticatable
       t.string :email,              null: false, default: ""
-      t.string :name
+      
+      t.string :first_name
+      t.string :second_name
+      t.string :last_name
+      t.string :maiden_name
+      t.string :phone
+      t.string :address
+      
       t.string :encrypted_password, null: false, default: ""
       t.string :authentication_token # para validacion de usuarios api rest
 

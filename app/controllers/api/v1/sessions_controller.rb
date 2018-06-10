@@ -21,7 +21,7 @@ class Api::V1::SessionsController < ApiController
 
   # DELETE /api/v1/sessions/logout.json
   def logout
-    user.update_attribute(:authentication_token, nil)
+    current_user.update_attribute(:authentication_token, nil)
     render json: { message: 'Sesión terminada'}, status: :ok
   end
 end

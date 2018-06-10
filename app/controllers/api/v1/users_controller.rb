@@ -38,7 +38,8 @@ class Api::V1::UsersController < ApiController
 
 	  # parámetros fuertes
 	  def user_params
-	  	params.require(:user).permit(:id, :name, :email, :password)
+	  	params.require(:user).permit(:id, :first_name, :second_name,
+	  	:last_name, :maiden_name, :email, :password)
 	  end
 
 	  # setear el usuario
