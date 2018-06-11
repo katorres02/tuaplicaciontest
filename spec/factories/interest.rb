@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :interest do
     first_name  "Arte"
-    user
+    user { User.first || association(:user) }
   end
 end

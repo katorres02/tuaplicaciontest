@@ -1,5 +1,6 @@
 class Api::V1::UsersController < ApiController
 	skip_before_action :validate_credentials, only: [:create]
+  before_action :set_user, only: [:update, :destroy]
   
   # GET /api/v1/users/1.json
   def show

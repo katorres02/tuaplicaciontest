@@ -2,6 +2,7 @@ class Api::V1::SessionsController < ApiController
   skip_before_action :validate_credentials, only: [:login]
   
   # POST /api/v1/sessions/login.json
+  # valida las credenciales, genera un nuevo token de autenticación
   def login
     email    = params[:email]
     password = params[:password]
@@ -20,6 +21,7 @@ class Api::V1::SessionsController < ApiController
   end
 
   # DELETE /api/v1/sessions/logout.json
+  # elimina el token de atentcación actual
   def logout
     current_user.update_attribute(:authentication_token, nil)
     render json: { message: 'Sesión terminada'}, status: :ok
