@@ -12,7 +12,7 @@ La estructura utilizada permite versionamiento de la api.
 
 Interfaz gráfica para visualizar la información almacenada.
 
-![alt text](https://lh3.googleusercontent.com/VFlglQwGHUHo5bpGpz41w-8yUdK3qcKtfjAd5A4k5BKKUlBF0mEcoyOLLXKMYwVk7o9VqeR5fh0FSA=w1440-h724-rw
+![alt text](http://drive.google.com/uc?export=view&id=1ft3wR7K3fZNF8C4W1aaCE4jgpqIkj-Sv
  "Dashboard principal")
 
 ## Getting Started
@@ -399,10 +399,10 @@ Nótese que los resources de usuarios e intereses están anitados en la url.
 ## Seguimiento de datos
 La vista principal del proyecto muestra la lista de usuarios con la información almacenada a través de los servicios. Se puede ver los datos básicos del usuario y la lista de intereses de cada uno.
 
-![alt text](https://lh3.googleusercontent.com/VFlglQwGHUHo5bpGpz41w-8yUdK3qcKtfjAd5A4k5BKKUlBF0mEcoyOLLXKMYwVk7o9VqeR5fh0FSA=w1440-h724-rw
+![alt text](http://drive.google.com/uc?export=view&id=1ft3wR7K3fZNF8C4W1aaCE4jgpqIkj-Sv
  "Dashboard principal")
 
 
 ## Autor
 
-* **Carlos A Torres** - *Dev principal* - [katorres02](https://github.com/katorres)
+* **Carlos A Torres** - *Dev principal* - [katorres02](https://github.com/katorres02)
