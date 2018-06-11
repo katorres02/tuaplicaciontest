@@ -405,4 +405,4 @@ La vista principal del proyecto muestra la lista de usuarios con la información
 
 ## Autor
 
-* **Carlos A Torres** - *Trabajo inicial* - [katorres02](https://github.com/katorres)
+* **Carlos A Torres** - *Dev principal* - [katorres02](https://github.com/katorres)
